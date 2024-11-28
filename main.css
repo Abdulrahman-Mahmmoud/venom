@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Griffy&family=Nosifer&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Griffy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asset&family=Griffy&family=Nosifer&display=swap');
+*{
+    font-family: 'Ubuntu', sans-serif;
+    padding:0;
+    margin: 0;
+}
+a{
+    color:white;
+    text-decoration: none;
+    font-family: "Griffy", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+body{
+    background-image: linear-gradient( to right, #01011fb7 ,#000000d2),url(./pictures/Venom\ The\ Last\ Dance.jfif);
+    background-size: cover;
+    background-attachment: fixed;
+    height:100vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.container{
+    background-image: linear-gradient(to right ,#151414e5, #0c010199 60%),url(./pictures/Venom\ lockscreens.jpg);
+    background-size: cover;
+    width:90%;
+    height:790px;
+    border-radius: 30px;
+    background-position: center;
+    box-shadow: 0px 5px 10px 5px rgb(13, 2, 48) inset;
+    margin-top: 10%;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.logo{
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: "Griffy", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+ul{
+    width: 60%;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Nosifer", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: bold;
+}
+ul a{
+    border-bottom:2px solid transparent ;
+    transition: 0.5s;
+}
+ul a:hover{
+    border-bottom-color:white ;
+}
+.content{
+    color: white;
+    width: 50%;
+    margin-top:50px;
+    padding:30px;
+}
+.content h2{
+    font-size: 100px;
+    text-transform: uppercase;
+    font-family: "Griffy", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+.content p {
+    letter-spacing: 2px;
+    padding: 20px 0;
+    width: 350px;
+    font-weight: bold;
+}
+.content button{
+    font-size: 20px;
+    padding: 6px 10px;
+    border-radius: 10px;
+    border:2px solid transparent;
+    cursor: pointer;
+    font-family: "Asset", serif;
+    font-weight: 400;
+    font-style: normal;
+    transition: 0.5s;
+}
+.content button:hover{
+    background-color: transparent;
+    border-color: white;
+    color: white;
+}
+.video-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30%;
+    
+}
+.video-list .video{
+    width: 100%;
+    height: auto;
+
+}
+
+.video-list video{
+    width: 90%;
+    margin-left: 5%;
+    display: flex;
+    justify-content: center;
+    height:auto;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+.video video:hover{
+    transform: scale(1.1);
+}
+.video-list .video h3{
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 90px;
+    font-family: "Griffy", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
